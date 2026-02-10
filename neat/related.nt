@@ -42,7 +42,7 @@ void main() {
     }
 }
 
-(void | fail Error) errorMain()
+(void | Error) errorMain()
 {
     ubyte[] file = readFile("../posts.json");
     auto source = new ArraySource!(ubyte[])([file]);
